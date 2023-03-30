@@ -5,7 +5,7 @@ import csv
 
 CSV_PATH = "static/csv/device.csv"
 
-openai.api_key = "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"
+openai.api_key = ""
 messages = [{"role": "user", "content": "Hello there!"},]
 
 def bot():
