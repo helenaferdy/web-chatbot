@@ -36,8 +36,12 @@ img {
     border-radius: 10px;
 }
 
-
-
+.device-selection {
+    background-color: #4a4e69 !important;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
 
 ul {
     /* list-style-image: url('../image/bot.png'); */
@@ -105,6 +109,10 @@ h5 {
 
 .loading {
     min-height: 50px;
+}
+
+.getdata {
+    color: white;
 }
 
 #input-nav {

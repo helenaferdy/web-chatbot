@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: 'POST',
-            url: '/ajax',
+            url: '/get_chatbot',
             contentType: 'application/json',
             data: JSON.stringify({input}),
             success: function(response) {
@@ -23,3 +23,4 @@ $(document).ready(function() {
         });
     });
 });
+

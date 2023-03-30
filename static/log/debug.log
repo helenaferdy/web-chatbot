@@ -1,0 +1,671 @@
+2023-03-30 23:00:56,414 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-30 23:00:56,414 [INFO] [33mPress CTRL+C to quit[0m
+2023-03-30 23:00:56,414 [INFO]  * Restarting with stat
+2023-03-30 23:00:57,323 [WARNING]  * Debugger is active!
+2023-03-30 23:00:57,330 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:01:00,867 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:00] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:01:00,905 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:01:00,911 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:00] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:01:00,924 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:00] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:01:01,809 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:01] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:01:01,855 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:01:01,857 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:01] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:01:01,872 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:01] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:01:03,082 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:03] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:01:03,135 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:01:03,571 [INFO] Authentication (password) successful!
+2023-03-30 23:01:04,057 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:01:04,289 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:01:04,551 [INFO] 198.18.0.123 : Command 'show inventory' sent
+2023-03-30 23:01:04,626 [INFO] 198.18.0.123 : Command 'show inventory' parsed
+2023-03-30 23:01:04,664 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:01:04,664 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:04] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:01:45,068 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:01:45,237 [INFO]  * Restarting with stat
+2023-03-30 23:01:46,296 [WARNING]  * Debugger is active!
+2023-03-30 23:01:46,301 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:01:47,378 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:47] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:01:47,421 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:01:47,425 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:47] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:01:47,442 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:47] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:01:48,443 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:48] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:01:48,491 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:01:49,114 [INFO] Authentication (password) successful!
+2023-03-30 23:01:49,490 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:01:50,742 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:01:50,891 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:01:50,961 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:01:50,987 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:01:50,987 [INFO] 127.0.0.1 - - [30/Mar/2023 23:01:50] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:02:23,116 [INFO] 127.0.0.1 - - [30/Mar/2023 23:02:23] "GET /chatbot HTTP/1.1" 200 -
+2023-03-30 23:02:23,166 [INFO] 127.0.0.1 - - [30/Mar/2023 23:02:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:02:23,167 [INFO] 127.0.0.1 - - [30/Mar/2023 23:02:23] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2023-03-30 23:02:23,180 [INFO] 127.0.0.1 - - [30/Mar/2023 23:02:23] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:02:42,185 [INFO] 127.0.0.1 - - [30/Mar/2023 23:02:42] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:02:52,459 [INFO] 127.0.0.1 - - [30/Mar/2023 23:02:52] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:03:18,873 [INFO] 127.0.0.1 - - [30/Mar/2023 23:03:18] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:04:59,464 [INFO] 127.0.0.1 - - [30/Mar/2023 23:04:59] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:05:52,475 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:52] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:05:52,504 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:05:52,506 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:52] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:05:52,524 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:52] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:05:55,958 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:55] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:05:55,996 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:05:55,998 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:55] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:05:56,020 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:56] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:05:58,331 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:58] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:05:58,398 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:05:58,931 [INFO] Authentication (password) successful!
+2023-03-30 23:05:59,368 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:05:59,566 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:05:59,699 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:05:59,704 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:05:59,744 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:05:59,745 [INFO] 127.0.0.1 - - [30/Mar/2023 23:05:59] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:06:49,980 [INFO] 127.0.0.1 - - [30/Mar/2023 23:06:49] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:06:50,024 [INFO] 127.0.0.1 - - [30/Mar/2023 23:06:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:06:50,027 [INFO] 127.0.0.1 - - [30/Mar/2023 23:06:50] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:06:50,101 [INFO] 127.0.0.1 - - [30/Mar/2023 23:06:50] "GET /static/image/bot.png HTTP/1.1" 200 -
+2023-03-30 23:06:52,614 [INFO] 127.0.0.1 - - [30/Mar/2023 23:06:52] "GET /static/image/human.png HTTP/1.1" 200 -
+2023-03-30 23:06:52,673 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:06:54,078 [INFO] Authentication (password) successful!
+2023-03-30 23:06:55,083 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:06:55,403 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:06:55,630 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:06:55,635 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:06:55,709 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:06:55,711 [INFO] 127.0.0.1 - - [30/Mar/2023 23:06:55] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:07:39,879 [INFO] 127.0.0.1 - - [30/Mar/2023 23:07:39] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:07:39,914 [INFO] 127.0.0.1 - - [30/Mar/2023 23:07:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:07:39,916 [INFO] 127.0.0.1 - - [30/Mar/2023 23:07:39] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:07:39,937 [INFO] 127.0.0.1 - - [30/Mar/2023 23:07:39] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:07:41,033 [INFO] 127.0.0.1 - - [30/Mar/2023 23:07:41] "GET /static/image/human.png HTTP/1.1" 200 -
+2023-03-30 23:07:41,166 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:07:43,574 [INFO] Authentication (password) successful!
+2023-03-30 23:07:46,026 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:07:46,656 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:07:47,382 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:07:47,387 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:07:47,461 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:07:47,462 [INFO] 127.0.0.1 - - [30/Mar/2023 23:07:47] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:08:15,412 [INFO] 127.0.0.1 - - [30/Mar/2023 23:08:15] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:08:15,460 [INFO] 127.0.0.1 - - [30/Mar/2023 23:08:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:08:15,461 [INFO] 127.0.0.1 - - [30/Mar/2023 23:08:15] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:08:15,478 [INFO] 127.0.0.1 - - [30/Mar/2023 23:08:15] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:08:16,815 [INFO] 127.0.0.1 - - [30/Mar/2023 23:08:16] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:08:16,947 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:08:18,641 [INFO] Authentication (password) successful!
+2023-03-30 23:08:23,114 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:08:23,501 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:08:23,762 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:08:23,766 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:08:23,806 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:08:23,807 [INFO] 127.0.0.1 - - [30/Mar/2023 23:08:23] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:09:02,177 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:02] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:09:02,214 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:09:02,215 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:02] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:09:02,240 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:02] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:09:03,490 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:03] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:09:03,560 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:09:04,639 [INFO] Authentication (password) successful!
+2023-03-30 23:09:05,378 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:09:06,202 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:09:10,025 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:09:10,030 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:09:11,138 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:09:11,139 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:11] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:09:53,057 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:53] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:09:53,094 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:09:53,105 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:53] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:09:53,118 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:53] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:09:54,239 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:54] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:09:54,325 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:09:55,463 [INFO] Authentication (password) successful!
+2023-03-30 23:09:56,193 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:09:57,487 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:09:57,773 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:09:57,776 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:09:57,838 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:09:57,839 [INFO] 127.0.0.1 - - [30/Mar/2023 23:09:57] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:11:07,487 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/router.py', reloading
+2023-03-30 23:11:07,650 [INFO]  * Restarting with stat
+2023-03-30 23:11:08,735 [WARNING]  * Debugger is active!
+2023-03-30 23:11:08,740 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:11:56,421 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:11:56,573 [INFO]  * Restarting with stat
+2023-03-30 23:11:57,569 [WARNING]  * Debugger is active!
+2023-03-30 23:11:57,573 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:12:23,979 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:12:24,125 [INFO]  * Restarting with stat
+2023-03-30 23:12:25,031 [WARNING]  * Debugger is active!
+2023-03-30 23:12:25,036 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:12:27,880 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:27] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:12:27,937 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:12:27,938 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:27] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:12:27,954 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:27] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:12:33,506 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:33] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:12:33,591 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:12:34,245 [INFO] Authentication (password) successful!
+2023-03-30 23:12:35,832 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:12:36,155 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:12:36,396 [INFO] 198.18.0.123 : Command 'show inventory' sent
+2023-03-30 23:12:36,465 [INFO] 198.18.0.123 : Command 'show inventory' parsed
+2023-03-30 23:12:36,516 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:12:36,516 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:36] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:12:42,281 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:12:43,165 [INFO] Authentication (password) successful!
+2023-03-30 23:12:43,892 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:12:44,221 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:12:44,376 [INFO] 198.18.0.123 : Command 'show cdp neighbor' sent
+2023-03-30 23:12:44,386 [INFO] 198.18.0.123 : Command 'show cdp neighbor' parsed
+2023-03-30 23:12:44,424 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:12:44,426 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:44] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:12:49,387 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:12:50,021 [INFO] Authentication (password) successful!
+2023-03-30 23:12:50,417 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:12:50,605 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:12:50,767 [INFO] 198.18.0.123 : Command 'show xxz' sent
+2023-03-30 23:12:50,769 [ERROR] 198.18.0.123 : Failed to parse command 'show xxz'
+2023-03-30 23:12:50,795 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:12:50,796 [INFO] 127.0.0.1 - - [30/Mar/2023 23:12:50] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:14:59,187 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:14:59,340 [INFO]  * Restarting with stat
+2023-03-30 23:15:00,408 [WARNING]  * Debugger is active!
+2023-03-30 23:15:00,413 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:15:09,008 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:09] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:15:09,037 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:15:09,038 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:09] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:15:09,070 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:09] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:15:12,581 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:12] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:15:12,647 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:15:13,363 [INFO] Authentication (password) successful!
+2023-03-30 23:15:13,866 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:15:14,080 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:15:14,223 [INFO] 198.18.0.123 : Command 'show inventory' sent
+2023-03-30 23:15:14,298 [INFO] 198.18.0.123 : Command 'show inventory' parsed
+2023-03-30 23:15:14,336 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:15:14,336 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:14] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:15:19,535 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:15:20,284 [INFO] Authentication (password) successful!
+2023-03-30 23:15:20,643 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:15:20,842 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:15:21,069 [INFO] 198.18.0.123 : Command 'show xxz' sent
+2023-03-30 23:15:21,072 [ERROR] 198.18.0.123 : Failed to parse command 'show xxz'
+2023-03-30 23:15:22,135 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:15:22,136 [INFO] 127.0.0.1 - - [30/Mar/2023 23:15:22] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:15:40,998 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:15:41,145 [INFO]  * Restarting with stat
+2023-03-30 23:15:42,209 [WARNING]  * Debugger is active!
+2023-03-30 23:15:42,214 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:16:22,694 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/router.py', reloading
+2023-03-30 23:16:22,838 [INFO]  * Restarting with stat
+2023-03-30 23:16:23,830 [WARNING]  * Debugger is active!
+2023-03-30 23:16:23,839 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:16:26,887 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/router.py', reloading
+2023-03-30 23:16:27,035 [INFO]  * Restarting with stat
+2023-03-30 23:16:27,937 [WARNING]  * Debugger is active!
+2023-03-30 23:16:27,943 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:16:58,365 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/router.py', reloading
+2023-03-30 23:16:58,514 [INFO]  * Restarting with stat
+2023-03-30 23:16:59,603 [WARNING]  * Debugger is active!
+2023-03-30 23:16:59,611 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:17:10,754 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/router.py', reloading
+2023-03-30 23:17:10,898 [INFO]  * Restarting with stat
+2023-03-30 23:17:11,947 [WARNING]  * Debugger is active!
+2023-03-30 23:17:11,952 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:17:15,999 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/router.py', reloading
+2023-03-30 23:17:16,145 [INFO]  * Restarting with stat
+2023-03-30 23:17:17,054 [WARNING]  * Debugger is active!
+2023-03-30 23:17:17,058 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:17:29,232 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:17:29,383 [INFO]  * Restarting with stat
+2023-03-30 23:17:30,318 [WARNING]  * Debugger is active!
+2023-03-30 23:17:30,324 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:17:30,963 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:30] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:17:30,992 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:17:30,997 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:30] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:17:31,024 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:31] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:17:32,578 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:32] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:17:32,622 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:17:33,322 [INFO] Authentication (password) successful!
+2023-03-30 23:17:33,765 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:17:33,974 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:17:34,122 [INFO] 198.18.0.123 : Command 'aa' sent
+2023-03-30 23:17:34,189 [ERROR] 198.18.0.123 : Failed to parse command 'aa'
+2023-03-30 23:17:34,214 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:17:34,215 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:34] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:17:41,750 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:17:42,223 [INFO] Authentication (password) successful!
+2023-03-30 23:17:42,660 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:17:42,911 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:17:43,066 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' sent
+2023-03-30 23:17:43,073 [INFO] 198.18.0.123 : Command 'show ip ospf neighbor' parsed
+2023-03-30 23:17:43,112 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:17:43,114 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:43] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:17:52,563 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:17:53,281 [INFO] Authentication (password) successful!
+2023-03-30 23:17:53,687 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:17:53,908 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:17:54,041 [INFO] 198.18.0.123 : Command 'show ip int brief' sent
+2023-03-30 23:17:54,047 [INFO] 198.18.0.123 : Command 'show ip int brief' parsed
+2023-03-30 23:17:54,087 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:17:54,088 [INFO] 127.0.0.1 - - [30/Mar/2023 23:17:54] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:18:16,978 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:16] "GET /chatbot HTTP/1.1" 200 -
+2023-03-30 23:18:17,029 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:18:17,033 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:17] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2023-03-30 23:18:17,050 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:17] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:18:19,311 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:19] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:18:20,588 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:20] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:18:34,035 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:34] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:18:50,218 [INFO] 127.0.0.1 - - [30/Mar/2023 23:18:50] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:19:26,056 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:26] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-30 23:19:51,003 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:51] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:19:51,058 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:19:51,058 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:51] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:19:51,074 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:51] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:19:57,482 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:57] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:19:57,549 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:19:58,232 [INFO] Authentication (password) successful!
+2023-03-30 23:19:58,629 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:19:58,829 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:19:58,977 [INFO] 198.18.0.123 : Command 'show ip int br' sent
+2023-03-30 23:19:58,982 [INFO] 198.18.0.123 : Command 'show ip int br' parsed
+2023-03-30 23:19:59,008 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:19:59,009 [INFO] 127.0.0.1 - - [30/Mar/2023 23:19:59] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:24:57,806 [INFO] 127.0.0.1 - - [30/Mar/2023 23:24:57] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:24:57,829 [INFO] 127.0.0.1 - - [30/Mar/2023 23:24:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:24:57,831 [INFO] 127.0.0.1 - - [30/Mar/2023 23:24:57] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:24:57,862 [INFO] 127.0.0.1 - - [30/Mar/2023 23:24:57] "GET /static/image/bot.png HTTP/1.1" 200 -
+2023-03-30 23:25:10,811 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:10] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:25:10,831 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:25:10,835 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:10] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:25:10,873 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:10] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:25:28,613 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:28] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:25:28,647 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:25:28,648 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:28] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:25:28,672 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:28] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:25:35,730 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:35] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:25:35,769 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:25:35,770 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:35] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:25:35,790 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:35] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:25:50,247 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:50] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:25:50,281 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:25:50,282 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:50] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:25:50,303 [INFO] 127.0.0.1 - - [30/Mar/2023 23:25:50] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:26:16,528 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:16] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:26:16,548 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:26:16,551 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:16] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:26:16,590 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:16] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:26:31,153 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:31] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:26:31,189 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:26:31,189 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:31] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:26:31,214 [INFO] 127.0.0.1 - - [30/Mar/2023 23:26:31] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:27:13,004 [INFO] 127.0.0.1 - - [30/Mar/2023 23:27:13] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:27:13,028 [INFO] 127.0.0.1 - - [30/Mar/2023 23:27:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:27:13,030 [INFO] 127.0.0.1 - - [30/Mar/2023 23:27:13] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:27:13,064 [INFO] 127.0.0.1 - - [30/Mar/2023 23:27:13] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:28:39,581 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:39] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:28:39,605 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:28:39,607 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:39] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:28:39,640 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:39] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:28:40,713 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:40] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:28:40,746 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:28:40,747 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:40] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:28:40,773 [INFO] 127.0.0.1 - - [30/Mar/2023 23:28:40] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:29:00,347 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:00] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:29:00,372 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:00] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:29:00,372 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:00] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:29:00,408 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:00] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:29:25,835 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:25] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:29:25,859 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:25] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:29:25,860 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:25] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:29:25,898 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:25] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:29:34,082 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:34] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:29:34,117 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:29:34,118 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:34] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:29:34,142 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:34] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:29:55,369 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:55] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:29:55,391 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:55] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:29:55,405 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:55] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:29:55,428 [INFO] 127.0.0.1 - - [30/Mar/2023 23:29:55] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:30:20,287 [INFO] 127.0.0.1 - - [30/Mar/2023 23:30:20] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:30:20,309 [INFO] 127.0.0.1 - - [30/Mar/2023 23:30:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:30:20,311 [INFO] 127.0.0.1 - - [30/Mar/2023 23:30:20] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:30:20,347 [INFO] 127.0.0.1 - - [30/Mar/2023 23:30:20] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:30:46,792 [INFO] 127.0.0.1 - - [30/Mar/2023 23:30:46] "GET /static/image/human.png HTTP/1.1" 200 -
+2023-03-30 23:30:46,843 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:30:47,615 [INFO] Authentication (password) successful!
+2023-03-30 23:30:49,150 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:30:49,393 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:30:49,531 [INFO] 198.18.0.123 : Command 'show interface desc' sent
+2023-03-30 23:30:49,543 [INFO] 198.18.0.123 : Command 'show interface desc' parsed
+2023-03-30 23:30:49,580 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:30:49,582 [INFO] 127.0.0.1 - - [30/Mar/2023 23:30:49] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:31:03,435 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:31:07,218 [INFO] Authentication (password) successful!
+2023-03-30 23:31:07,596 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:31:07,784 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:31:08,123 [INFO] 198.18.0.123 : Command 'show processes cpu' sent
+2023-03-30 23:31:08,132 [INFO] 198.18.0.123 : Command 'show processes cpu' parsed
+2023-03-30 23:31:08,157 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:31:08,159 [INFO] 127.0.0.1 - - [30/Mar/2023 23:31:08] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:36:30,552 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:36:30,704 [INFO]  * Restarting with stat
+2023-03-30 23:36:31,766 [WARNING]  * Debugger is active!
+2023-03-30 23:36:31,773 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:38:19,776 [INFO] 127.0.0.1 - - [30/Mar/2023 23:38:19] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:38:19,824 [INFO] 127.0.0.1 - - [30/Mar/2023 23:38:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:38:19,824 [INFO] 127.0.0.1 - - [30/Mar/2023 23:38:19] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:38:19,836 [INFO] 127.0.0.1 - - [30/Mar/2023 23:38:19] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:38:23,270 [INFO] 127.0.0.1 - - [30/Mar/2023 23:38:23] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:38:23,339 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:38:24,127 [INFO] Authentication (password) successful!
+2023-03-30 23:38:25,595 [INFO] 198.18.0.123 : Connected 
+2023-03-30 23:38:25,797 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-30 23:38:25,943 [INFO] 198.18.0.123 : Command 'test' sent
+2023-03-30 23:38:26,011 [ERROR] 198.18.0.123 : Failed to parse command 'test'
+2023-03-30 23:38:26,036 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-30 23:38:26,037 [INFO] 127.0.0.1 - - [30/Mar/2023 23:38:26] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:38:47,818 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:38:47,975 [INFO]  * Restarting with stat
+2023-03-30 23:38:48,992 [WARNING]  * Debugger is active!
+2023-03-30 23:38:48,997 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:39:01,397 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:01] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:39:01,425 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:39:01,434 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:01] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:39:01,462 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:01] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:39:06,008 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:06] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:39:06,105 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:39:07,229 [INFO] Authentication (password) successful!
+2023-03-30 23:39:08,544 [INFO] 198.18.0.121 : Connected 
+2023-03-30 23:39:09,366 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-30 23:39:10,223 [INFO] 198.18.0.121 : Command 'show inventory' sent
+2023-03-30 23:39:10,280 [INFO] 198.18.0.121 : Command 'show inventory' parsed
+2023-03-30 23:39:10,356 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-30 23:39:10,356 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:10] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:39:20,333 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:20] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:39:20,369 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:39:20,371 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:20] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:39:20,395 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:20] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:39:25,521 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:25] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-30 23:39:25,588 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-30 23:39:29,274 [INFO] Authentication (password) successful!
+2023-03-30 23:39:30,474 [INFO] 198.18.0.122 : Connected 
+2023-03-30 23:39:30,859 [INFO] 198.18.0.122 : Entered enable mode 
+2023-03-30 23:39:31,116 [INFO] 198.18.0.122 : Command 'show inventory' sent
+2023-03-30 23:39:31,120 [INFO] 198.18.0.122 : Command 'show inventory' parsed
+2023-03-30 23:39:31,159 [INFO] 198.18.0.122 : Disconnected succcessfully
+2023-03-30 23:39:31,160 [INFO] 127.0.0.1 - - [30/Mar/2023 23:39:31] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:40:29,376 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:40:29,526 [INFO]  * Restarting with stat
+2023-03-30 23:40:30,540 [WARNING]  * Debugger is active!
+2023-03-30 23:40:30,545 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:40:35,631 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:40:35,793 [INFO]  * Restarting with stat
+2023-03-30 23:40:36,734 [WARNING]  * Debugger is active!
+2023-03-30 23:40:36,740 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:42:15,086 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:42:15,262 [INFO]  * Restarting with stat
+2023-03-30 23:42:16,249 [WARNING]  * Debugger is active!
+2023-03-30 23:42:16,255 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:42:32,486 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:42:32,636 [INFO]  * Restarting with stat
+2023-03-30 23:42:33,629 [WARNING]  * Debugger is active!
+2023-03-30 23:42:33,635 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:42:38,714 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:42:38,865 [INFO]  * Restarting with stat
+2023-03-30 23:42:39,827 [WARNING]  * Debugger is active!
+2023-03-30 23:42:39,832 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:42:41,863 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:42:42,016 [INFO]  * Restarting with stat
+2023-03-30 23:42:42,969 [WARNING]  * Debugger is active!
+2023-03-30 23:42:42,976 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:42:48,046 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:42:48,195 [INFO]  * Restarting with stat
+2023-03-30 23:42:49,137 [WARNING]  * Debugger is active!
+2023-03-30 23:42:49,142 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:42:57,240 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:42:57,378 [INFO]  * Restarting with stat
+2023-03-30 23:42:58,282 [WARNING]  * Debugger is active!
+2023-03-30 23:42:58,287 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:43:18,609 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-30 23:43:18,756 [INFO]  * Restarting with stat
+2023-03-30 23:43:19,658 [WARNING]  * Debugger is active!
+2023-03-30 23:43:19,664 [INFO]  * Debugger PIN: 195-543-636
+2023-03-30 23:44:24,478 [INFO] 127.0.0.1 - - [30/Mar/2023 23:44:24] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:44:24,514 [INFO] 127.0.0.1 - - [30/Mar/2023 23:44:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:44:24,520 [INFO] 127.0.0.1 - - [30/Mar/2023 23:44:24] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-30 23:44:24,533 [INFO] 127.0.0.1 - - [30/Mar/2023 23:44:24] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:51:56,659 [INFO] 127.0.0.1 - - [30/Mar/2023 23:51:56] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:51:56,697 [INFO] 127.0.0.1 - - [30/Mar/2023 23:51:56] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-30 23:51:56,698 [INFO] 127.0.0.1 - - [30/Mar/2023 23:51:56] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:51:56,720 [INFO] 127.0.0.1 - - [30/Mar/2023 23:51:56] "GET /static/image/bot.png HTTP/1.1" 200 -
+2023-03-30 23:51:56,723 [INFO] 127.0.0.1 - - [30/Mar/2023 23:51:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-30 23:52:40,693 [INFO] 127.0.0.1 - - [30/Mar/2023 23:52:40] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:52:40,727 [INFO] 127.0.0.1 - - [30/Mar/2023 23:52:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:52:40,731 [INFO] 127.0.0.1 - - [30/Mar/2023 23:52:40] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:52:40,789 [INFO] 127.0.0.1 - - [30/Mar/2023 23:52:40] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:53:05,043 [INFO] 127.0.0.1 - - [30/Mar/2023 23:53:05] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:53:05,078 [INFO] 127.0.0.1 - - [30/Mar/2023 23:53:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:53:05,081 [INFO] 127.0.0.1 - - [30/Mar/2023 23:53:05] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:53:05,104 [INFO] 127.0.0.1 - - [30/Mar/2023 23:53:05] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:54:22,602 [INFO] 127.0.0.1 - - [30/Mar/2023 23:54:22] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:54:22,627 [INFO] 127.0.0.1 - - [30/Mar/2023 23:54:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:54:22,638 [INFO] 127.0.0.1 - - [30/Mar/2023 23:54:22] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:54:22,665 [INFO] 127.0.0.1 - - [30/Mar/2023 23:54:22] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:56:15,035 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:15] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:56:15,082 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:56:15,085 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:15] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:56:15,108 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:15] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:56:54,975 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:54] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:56:55,002 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:56:55,004 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:55] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:56:55,039 [INFO] 127.0.0.1 - - [30/Mar/2023 23:56:55] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-30 23:57:22,146 [INFO] 127.0.0.1 - - [30/Mar/2023 23:57:22] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-30 23:57:22,171 [INFO] 127.0.0.1 - - [30/Mar/2023 23:57:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-30 23:57:22,174 [INFO] 127.0.0.1 - - [30/Mar/2023 23:57:22] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-30 23:57:22,209 [INFO] 127.0.0.1 - - [30/Mar/2023 23:57:22] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:01:21,575 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:21] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:01:21,622 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:21] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-03-31 00:01:21,624 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:21] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-31 00:01:21,642 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:21] "GET /static/image/bot.png HTTP/1.1" 200 -
+2023-03-31 00:01:21,647 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-31 00:01:28,434 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:28] "[35m[1mPOST /get_show_netmiko HTTP/1.1[0m" 500 -
+2023-03-31 00:01:28,483 [INFO] 127.0.0.1 - - [31/Mar/2023 00:01:28] "GET /static/image/human.png HTTP/1.1" 200 -
+2023-03-31 00:02:17,184 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:17] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:02:17,209 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:02:17,212 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:17] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-31 00:02:17,248 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:17] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:02:20,651 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:20] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:02:20,702 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:02:21,264 [INFO] Authentication (password) successful!
+2023-03-31 00:02:22,718 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:02:24,061 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:02:24,177 [INFO] 198.18.0.121 : Command '' sent
+2023-03-31 00:02:24,245 [ERROR] 198.18.0.121 : Failed to parse command ''
+2023-03-31 00:02:24,270 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:02:24,271 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:24] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:02:53,622 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:02:54,120 [INFO] Authentication (password) successful!
+2023-03-31 00:02:54,561 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:02:54,869 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:02:55,002 [INFO] 198.18.0.121 : Command 'show inventory' sent
+2023-03-31 00:02:55,014 [INFO] 198.18.0.121 : Command 'show inventory' parsed
+2023-03-31 00:02:55,039 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:02:55,040 [INFO] 127.0.0.1 - - [31/Mar/2023 00:02:55] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:03:10,592 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:03:11,395 [INFO] Authentication (password) successful!
+2023-03-31 00:03:11,783 [INFO] 198.18.0.123 : Connected 
+2023-03-31 00:03:11,969 [INFO] 198.18.0.123 : Entered enable mode 
+2023-03-31 00:03:12,097 [INFO] 198.18.0.123 : Command 'show inventory' sent
+2023-03-31 00:03:12,101 [INFO] 198.18.0.123 : Command 'show inventory' parsed
+2023-03-31 00:03:12,406 [INFO] 198.18.0.123 : Disconnected succcessfully
+2023-03-31 00:03:12,407 [INFO] 127.0.0.1 - - [31/Mar/2023 00:03:12] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:04:39,984 [INFO] 127.0.0.1 - - [31/Mar/2023 00:04:39] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:04:40,033 [INFO] 127.0.0.1 - - [31/Mar/2023 00:04:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:04:40,034 [INFO] 127.0.0.1 - - [31/Mar/2023 00:04:40] "GET /static/js/show-netmiko.js HTTP/1.1" 200 -
+2023-03-31 00:04:40,048 [INFO] 127.0.0.1 - - [31/Mar/2023 00:04:40] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:04:48,771 [INFO] 127.0.0.1 - - [31/Mar/2023 00:04:48] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:04:48,776 [INFO] 127.0.0.1 - - [31/Mar/2023 00:04:48] "[35m[1mPOST /get_show_netmiko HTTP/1.1[0m" 500 -
+2023-03-31 00:05:37,181 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-31 00:05:37,181 [INFO] [33mPress CTRL+C to quit[0m
+2023-03-31 00:05:37,181 [INFO]  * Restarting with stat
+2023-03-31 00:05:38,090 [WARNING]  * Debugger is active!
+2023-03-31 00:05:38,095 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:05:38,108 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:38] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:05:38,158 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:05:38,158 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:38] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:05:38,171 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:38] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:05:39,065 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:39] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:05:39,119 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:05:39,119 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:39] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:05:39,133 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:39] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:05:42,656 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:42] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:05:42,783 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:05:43,611 [INFO] Authentication (password) successful!
+2023-03-31 00:05:44,105 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:05:44,340 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:05:44,836 [INFO] 198.18.0.121 : Command 'aa' sent
+2023-03-31 00:05:44,892 [ERROR] 198.18.0.121 : Failed to parse command 'aa'
+2023-03-31 00:05:44,918 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:05:44,918 [INFO] 127.0.0.1 - - [31/Mar/2023 00:05:44] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:07:34,820 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-31 00:07:34,979 [INFO]  * Restarting with stat
+2023-03-31 00:07:36,077 [WARNING]  * Debugger is active!
+2023-03-31 00:07:36,082 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:07:40,145 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-31 00:07:40,298 [INFO]  * Restarting with stat
+2023-03-31 00:07:41,220 [WARNING]  * Debugger is active!
+2023-03-31 00:07:41,226 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:07:41,290 [INFO] 127.0.0.1 - - [31/Mar/2023 00:07:41] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:07:41,305 [INFO] 127.0.0.1 - - [31/Mar/2023 00:07:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:07:41,307 [INFO] 127.0.0.1 - - [31/Mar/2023 00:07:41] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:07:41,345 [INFO] 127.0.0.1 - - [31/Mar/2023 00:07:41] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:07:43,602 [INFO] 127.0.0.1 - - [31/Mar/2023 00:07:43] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:07:53,604 [ERROR] 99.99.99.99: Failed to connect
+2023-03-31 00:07:53,606 [INFO] 127.0.0.1 - - [31/Mar/2023 00:07:53] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:08:10,437 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:08:10,968 [INFO] Authentication (password) successful!
+2023-03-31 00:08:11,337 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:08:12,582 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:08:12,793 [INFO] 198.18.0.121 : Command 'show inventory' sent
+2023-03-31 00:08:12,862 [INFO] 198.18.0.121 : Command 'show inventory' parsed
+2023-03-31 00:08:12,901 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:08:12,901 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:12] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:08:26,215 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:26] "GET /chatbot HTTP/1.1" 200 -
+2023-03-31 00:08:26,261 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:08:26,263 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:26] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2023-03-31 00:08:26,282 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:26] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:08:28,369 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:28] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:08:29,585 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:29] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-31 00:08:45,243 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:45] "POST /get_chatbot HTTP/1.1" 200 -
+2023-03-31 00:08:54,237 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:54] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:08:54,286 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:08:54,288 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:54] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:08:54,304 [INFO] 127.0.0.1 - - [31/Mar/2023 00:08:54] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:09:40,007 [INFO] 127.0.0.1 - - [31/Mar/2023 00:09:40] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:09:40,032 [INFO] 127.0.0.1 - - [31/Mar/2023 00:09:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:09:40,046 [INFO] 127.0.0.1 - - [31/Mar/2023 00:09:40] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:09:40,070 [INFO] 127.0.0.1 - - [31/Mar/2023 00:09:40] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:09:52,626 [INFO] 127.0.0.1 - - [31/Mar/2023 00:09:52] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:09:52,674 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:09:53,592 [INFO] Authentication (password) successful!
+2023-03-31 00:09:53,980 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:09:54,272 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:09:54,420 [INFO] 198.18.0.121 : Command 'show cdp neighbor' sent
+2023-03-31 00:09:54,428 [INFO] 198.18.0.121 : Command 'show cdp neighbor' parsed
+2023-03-31 00:09:54,454 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:09:54,456 [INFO] 127.0.0.1 - - [31/Mar/2023 00:09:54] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:10:19,302 [INFO] 127.0.0.1 - - [31/Mar/2023 00:10:19] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:10:19,326 [INFO] 127.0.0.1 - - [31/Mar/2023 00:10:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:10:19,330 [INFO] 127.0.0.1 - - [31/Mar/2023 00:10:19] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:10:19,365 [INFO] 127.0.0.1 - - [31/Mar/2023 00:10:19] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:11:17,814 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:17] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:11:17,838 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:11:17,850 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:17] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:11:17,876 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:17] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:11:18,562 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:18] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:11:18,615 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:11:18,616 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:18] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:11:18,630 [INFO] 127.0.0.1 - - [31/Mar/2023 00:11:18] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:12:15,710 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:15] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:12:15,731 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:12:15,734 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:15] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:12:15,770 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:15] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:12:21,196 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:21] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:12:21,215 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:12:21,218 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:21] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:12:21,260 [INFO] 127.0.0.1 - - [31/Mar/2023 00:12:21] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:12:52,763 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-31 00:12:52,907 [INFO]  * Restarting with stat
+2023-03-31 00:12:53,985 [WARNING]  * Debugger is active!
+2023-03-31 00:12:53,989 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:12:59,060 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-31 00:12:59,211 [INFO]  * Restarting with stat
+2023-03-31 00:13:00,128 [WARNING]  * Debugger is active!
+2023-03-31 00:13:00,133 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:13:25,508 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-31 00:13:25,651 [INFO]  * Restarting with stat
+2023-03-31 00:13:26,552 [WARNING]  * Debugger is active!
+2023-03-31 00:13:26,557 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:13:29,496 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:29] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:13:29,524 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:13:29,529 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:29] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:13:29,557 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:29] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:13:54,966 [INFO]  * Detected change in '/Users/helena/Documents/VSCode/flask/app.py', reloading
+2023-03-31 00:13:55,114 [INFO]  * Restarting with stat
+2023-03-31 00:13:56,064 [WARNING]  * Debugger is active!
+2023-03-31 00:13:56,069 [INFO]  * Debugger PIN: 195-543-636
+2023-03-31 00:13:59,961 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:59] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:13:59,987 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:13:59,996 [INFO] 127.0.0.1 - - [31/Mar/2023 00:13:59] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:14:00,021 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:00] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:14:10,530 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:10] "[36mGET /static/image/human.png HTTP/1.1[0m" 304 -
+2023-03-31 00:14:10,791 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:14:11,374 [INFO] Authentication (password) successful!
+2023-03-31 00:14:11,853 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:14:12,078 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:14:12,264 [INFO] 198.18.0.121 : Command 'show int status' sent
+2023-03-31 00:14:12,337 [ERROR] 198.18.0.121 : Failed to parse command 'show int status'
+2023-03-31 00:14:12,363 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:14:12,363 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:12] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:14:24,422 [INFO] Connected (version 2.0, client Cisco-1.25)
+2023-03-31 00:14:25,091 [INFO] Authentication (password) successful!
+2023-03-31 00:14:25,548 [INFO] 198.18.0.121 : Connected 
+2023-03-31 00:14:25,771 [INFO] 198.18.0.121 : Entered enable mode 
+2023-03-31 00:14:25,954 [INFO] 198.18.0.121 : Command 'show ip route' sent
+2023-03-31 00:14:25,972 [INFO] 198.18.0.121 : Command 'show ip route' parsed
+2023-03-31 00:14:25,999 [INFO] 198.18.0.121 : Disconnected succcessfully
+2023-03-31 00:14:26,001 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:26] "POST /get_show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:14:58,301 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:58] "GET /chatbot HTTP/1.1" 200 -
+2023-03-31 00:14:58,339 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:14:58,354 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:58] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2023-03-31 00:14:58,369 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:58] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:14:59,514 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:59] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:14:59,555 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:59] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:14:59,555 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:14:59,576 [INFO] 127.0.0.1 - - [31/Mar/2023 00:14:59] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:15:00,699 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:00] "GET /chatbot HTTP/1.1" 200 -
+2023-03-31 00:15:00,748 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:15:00,749 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:00] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2023-03-31 00:15:00,761 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:00] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:15:03,165 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:03] "GET / HTTP/1.1" 200 -
+2023-03-31 00:15:03,217 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:15:04,097 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:04] "GET /chatbot HTTP/1.1" 200 -
+2023-03-31 00:15:04,147 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:15:04,148 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:04] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2023-03-31 00:15:04,161 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:04] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:15:05,342 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:05] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:15:05,392 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:15:05,393 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:05] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:15:05,411 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:05] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:15:15,290 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:15] "GET /chatbot HTTP/1.1" 200 -
+2023-03-31 00:15:15,332 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:15:15,351 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:15] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2023-03-31 00:15:15,391 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:15] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -
+2023-03-31 00:15:16,463 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:16] "GET /show_netmiko HTTP/1.1" 200 -
+2023-03-31 00:15:16,503 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-03-31 00:15:16,513 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:16] "[36mGET /static/js/show-netmiko.js HTTP/1.1[0m" 304 -
+2023-03-31 00:15:16,525 [INFO] 127.0.0.1 - - [31/Mar/2023 00:15:16] "[36mGET /static/image/bot.png HTTP/1.1[0m" 304 -

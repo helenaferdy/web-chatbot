@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<!-- ajax -->
+<script src="{{ url_for('static', filename='js/show-netmiko.js') }}"></script>
+{% endblock %}
+
+
+{% block body %}
+<body data-pageid="{{ show_netmiko }}">
+
+<section id="title">
+  <h1> HELENA SHOW NETWORK CONFIGURATION </h1>
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b4527ceb-0e3d-4a38-b735-dd1742e4f2c8/d65k1zm-85716a44-ff9e-4729-a898-1108047334fd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I0NTI3Y2ViLTBlM2QtNGEzOC1iNzM1LWRkMTc0MmU0ZjJjOFwvZDY1azF6bS04NTcxNmE0NC1mZjllLTQ3MjktYTg5OC0xMTA4MDQ3MzM0ZmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tmpe5aFN-0WII0tZ-FHVASlwyYaG7ZgPEbo8Ms-AV74">
+</section>
+
+<section class="container device-selection">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar" data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a id="device-select" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Select Device
+            </a>
+            <ul class="dropdown-menu">
+              {% for host in hostnames %}
+              <li><a class="dropdown-item" href="#"> {{ host }} </a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+  
+      </div>
+    </div>
+  </nav>
+</section>
+
+<br>
+
+<section id="main-box">
+  <div class="container main-box ">
+      <div class="mx-auto dark-box">
+      <ul id="output">
+        <div class="assistant"><li id="assistant">Select a device and then prompt the command below </li></div>
+      </ul>
+      </div>
+  </div>
+</section>
+
+<section class="loading">
+  <h5 id="loading"> </h5>
+</section>
+<section class="getdata">
+  <div id="data-container"></div>
+</section>
+
+<section id="sticky-footer">
+    <div class="row" >
+      <div class="col-md-11 col-sm-11">
+        <input type="text" class="form-control" id="input" name="input" placeholder="Enter prompt" autocomplete="off">
+      </div>
+      <div class="col-md-1 col-sm-1">
+        <button class="btn btn-outline-success" type="button" id="submit">Send</button>
+      </div>
+    </div>
+</section>
+
+
+
+<script type="text/javascript">
+
+// DROPDOWN DEVICE
+const selectDeviceLink = document.querySelector('#device-select');
+const dropdownItems = document.querySelectorAll('.dropdown-item');
+dropdownItems.forEach(item => {
+  item.addEventListener('click', () => {
+    const selectedValue = item.textContent.trim();
+    selectDeviceLink.textContent = selectedValue;
+    console.log(selectedValue);
+  });
+});
+
+
+// CACHE CONTENT
+// var pageId = 'show_netmiko'
+// if (sessionStorage.getItem(pageId)) {
+//     $('body').html(sessionStorage.getItem(pageId));
+// }
+// $(window).on('beforeunload', function() {
+//     sessionStorage.setItem(pageId, $('body').html());
+// });
+
+// KEYBOARD ENTER
+var input = document.getElementById("input");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("submit").click();
+  }
+}); 
+
+</script>
+
+
+</body>
+{% endblock %}
