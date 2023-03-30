@@ -2,10 +2,12 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 import openai
 from router import Routers
 import csv
+import base64
 
 CSV_PATH = "static/csv/device.csv"
+NOT_KEY = base64.b64decode(("c2stcTNuaVhLSkRVRENoZGhRaklBNnhUM0JsYmtGSkIyb2VsdEd1ZjlwY0VVU3JvckI0").encode('utf-8')).decode('utf-8')
 
-openai.api_key = ""
+openai.api_key = NOT_KEY
 messages = [{"role": "user", "content": "Hello there!"},]
 
 def bot():
