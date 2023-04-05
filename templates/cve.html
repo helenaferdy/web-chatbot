@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<body>
+    {% for p in products %}
+    <div><a href="{{ url_for('cve_product', product= p ) }}"> {{ p }} </a></div>
+    {% endfor %}
+
+
+</body>
+
+{% endblock %}

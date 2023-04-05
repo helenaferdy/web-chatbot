@@ -10,22 +10,32 @@ $(document).ready(function() {
         $("#output").append(inputHTML);
         $('#input').val('');
         $('#loading').text('Loading . . . .'); 
-
+ 
         $.ajax({
             type: 'POST',
             url: '/get_show_netmiko',
             contentType: 'application/json',
             data: JSON.stringify({input, device}),
             success: function(response) {
+                var outputHTML = '<div class="assistant"><li id="assistant">' + device + ' : ' + input + '</li></div>';
+                $("#output").append(outputHTML);
 
                 var html = '';
-                html += '<div class="assistant">';
+                html += '<div class="row">';
                 $.each(response, function(index, item) {
+                    html += '<div class="col-lg-3">';
+                    html += '<div class="card border-dark mb-3" style="max-width: 20rem;">';
                     $.each(item, function(key, value) {
-                        html += '<li id="assistant">' + key + ': ' + value + '</li>';
+                        // html += '<li id="assistant">' + key + ': ' + value + '</li>';
+                        html += '<div class="card-header">' + key + '</div>';
+                        html += '<div class="card-body">';
+                        html += '<p class="card-text">' + value + '</p>';
+                        html += '</div>';
                       });
-                    html += '<br>'
+                    html += '</div>';
+                    html += '</div>';
                 });
+                html += '</div>';
                 html += '</div>';
                 $("#output").append(html);
                 $('#loading').text(' \200 '); 

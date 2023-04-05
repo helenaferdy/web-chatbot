@@ -1,0 +1,33 @@
+<!-- {% extends 'base.html' %}
+
+{% block body %} -->
+
+<body>
+    <div class="row">
+        {% for a in advisories %}
+        <div class="col-lg-4">
+            <div class="card border-dark mb-3" style="min-height: 12rem;">
+                <div class="card-header" style="min-height: 4rem;"> {{ a['advisory'] }} </div>
+                    <div class="row">
+                        {% for c in a['cve'] %}
+                        <div class="col-lg-4">
+                            <div class="card border-dark mb-3" style="padding:2px; margin: 5px;">
+                                <div class="card-text"> <a href="{{ url_for('cve_cve', cve= c ) }}">  {{ c }}  </a> </div>
+                            </div>
+                        </div>  
+                        {% endfor %}
+                        {% for b in a['bugid'] %}
+                        <div class="col-lg-4">
+                            <div class="card border-dark mb-3" style="padding:2px; margin: 5px;">
+                                <div class="card-text">  <a href="{{ url_for('cve_cve', cve= b ) }}">  {{ b }}  </a> </div>
+                            </div>
+                        </div>  
+                        {% endfor %}
+                    </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+<!-- {% endblock %} -->

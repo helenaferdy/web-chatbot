@@ -1,0 +1,13 @@
+<!-- {% extends 'base.html' %} -->
+
+<!-- {% block body %} -->
+
+<body>
+    <div>Description : {{ response['desc'] }}</div>
+    <div>Date : {{ response['date'] }}</div>
+    {% for link in response['links'] %}
+    <div><a href="{{link}}">{{ link }}</a></div>
+    {% endfor %}
+</body>
+
+<!-- {% endblock %} -->
